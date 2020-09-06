@@ -36,28 +36,28 @@ $(document).ready(function(){
         e.preventDefault();
         $("html, body").animate({
             scrollTop: acercaDe - 300
-        },500);
+        },1000);
     });
     
     $("#btn-menu").on("click",function(e){
         e.preventDefault();
         $("html, body").animate({
             scrollTop: platillos - 100
-        },500);
+        },1000);
     });
 
     $("#btn-galeria").on("click",function(e){
         e.preventDefault();
         $("html, body").animate({
             scrollTop: galeria - 50
-        },500);
+        },1000);
     });
 
     $("#btn-ubicacion").on("click",function(e){
         e.preventDefault();
         $("html, body").animate({
             scrollTop: ubicacion +10
-        },500);
+        },1000);
     });
 
 
